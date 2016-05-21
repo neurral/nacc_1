@@ -26,7 +26,7 @@ gem 'pg'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-gem 'jbuilder', '~> 2.0'
+# gem 'jbuilder', '~> 2.0'
 gem 'figaro'
 gem 'active_model_serializers', '~> 0.10.0.rc2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
