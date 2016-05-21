@@ -5,10 +5,10 @@ gem 'rails', '4.2.6'
 
 gem 'rails-api'
 
-gem 'spring', :group => :development
+# gem 'spring', :group => :development
 
 
-gem 'sqlite3'
+gem 'pg'
 
 
 
@@ -26,6 +26,7 @@ gem 'sqlite3'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
-
-gem 'active_model_serializers'
+gem 'jbuilder', '~> 2.0'
+gem 'figaro'
+gem 'active_model_serializers', '~> 0.10.0.rc2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
